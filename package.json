@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "build": "sass SCSS:dist/css"
+    "build": "sass SCSS:dist/css",
+    "compile:sass": "sass --watch SCSS:dist/css"
   },
   "dependencies": {
     "bootstrap": "^5.3.1"
