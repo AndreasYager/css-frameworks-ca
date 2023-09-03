@@ -9,10 +9,12 @@
   <body>
     <header class="container mt-3">
       <div class="row">
-        <div class="col-md-4">
+        <div class="col-12 col-md-4 text-center">
           <img src="../images/logo.jpg" alt="Logo" />
         </div>
-        <div class="col-md-8 d-flex justify-content-end">
+        <div
+          class="col-12 mt-3 col-md-8 d-flex justify-content-center justify-content-md-end"
+        >
           <form class="form-inline">
             <div class="input-group">
               <label for="feed-search-input" class="visually-hidden"
@@ -32,17 +34,16 @@
         </div>
       </div>
     </header>
-    <main>
+    <main class="mb-5">
       <div class="container mt-5">
         <h3>New Post</h3>
         <form>
           <div class="form-group">
-            <label for="postText">What's on your mind?</label>
+            <label for="postText">What's the good word?</label>
             <textarea class="form-control" id="postText"></textarea>
           </div>
           <button type="submit" class="btn btn-primary">Post</button>
         </form>
-
         <h2 class="mt-5">Feed</h2>
         <div class="mt-4">
           <div class="card mb-4">
@@ -51,7 +52,7 @@
                 <img
                   src="../images/profilepic.jpg"
                   class="img-fluid rounded-circle p-3"
-                  alt="User Name"
+                  alt="Andreas Yager"
                 />
               </div>
               <div class="col-md-10">
@@ -72,7 +73,7 @@
                 <img
                   src="../images/profilepic.jpg"
                   class="img-fluid rounded-circle p-3"
-                  alt="User Name"
+                  alt="Andreas Yager"
                 />
               </div>
               <div class="col-md-10">
@@ -93,7 +94,7 @@
                 <img
                   src="../images/profilepic.jpg"
                   class="img-fluid rounded-circle p-3"
-                  alt="User Name"
+                  alt="Andreas Yager"
                 />
               </div>
               <div class="col-md-10">
@@ -114,7 +115,7 @@
                 <img
                   src="../images/profilepic.jpg"
                   class="img-fluid rounded-circle p-3"
-                  alt="User Name"
+                  alt="Andreas Yager"
                 />
               </div>
               <div class="col-md-10">
@@ -134,12 +135,9 @@
     <footer>
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="/index.html"
-          ><img
-            src="../images/logo.jpg"
-            alt="Your Brand Name"
-            style="max-height: 50px"
+          ><img src="../images/logo.jpg" alt="Logo"
         /></a>
-        <div class="collapse navbar-collapse">
+        <div>
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
               <a class="nav-link" href="/index.html">Home</a>
