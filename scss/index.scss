@@ -1,0 +1,37 @@
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+$primary-color: #3498db;
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: $primary-color;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+
+  header {
+    padding: 20px;
+
+    nav {
+      a {
+        color: darken($primary-color, 20%);
+      }
+    }
+
+    img {
+      max-height: 60px;
+    }
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+
+  footer {
+    flex-shrink: 0;
+
+    img {
+      max-height: 60px;
+    }
+  }
+}
